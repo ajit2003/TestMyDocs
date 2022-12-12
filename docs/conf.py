@@ -13,7 +13,9 @@ def configureDoxyfile(input_dir, output_dir):
 # Check if we're running on Read the docs' servers
 read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 
-breathe_projects = {}
+breathe_projects = {"TestDocs": "build/xml"}
+
+print("Python3")
 
 if read_the_docs_build:
     input_dir = '../TestDocs'
