@@ -7,9 +7,11 @@ Welcome to TestDocs's documentation!
 ====================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :titlesonly:
 
+   modules/testdocs.rst
+   modules/showqtinfo.rst
 
 
 Indices and tables
@@ -22,10 +24,3 @@ Indices and tables
 Docs
 ====
 
-.. doxygenclass:: ShowQtInfo
-   :members:
-   :private-members:
-
-.. doxygenclass:: TestDocs
-   :members:
-   :private-members:
