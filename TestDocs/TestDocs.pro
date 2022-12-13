@@ -10,10 +10,12 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
+    mainwindow.cpp \
     showqtinfo.cpp \
     testdocs.cpp
 
 HEADERS += \
+    mainwindow.h \
     showqtinfo.h \
     testdocs.h
 
