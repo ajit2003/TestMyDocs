@@ -12,6 +12,7 @@ Welcome to TestDocs's documentation!
 
    modules/testdocs.rst
    modules/showqtinfo.rst
+   modules/mainwindow.rst
 
 
 Indices and tables
