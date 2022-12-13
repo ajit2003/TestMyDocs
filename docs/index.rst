@@ -12,7 +12,7 @@ Welcome to TestDocs's documentation!
 
    modules/testdocs.rst
    modules/showqtinfo.rst
-   modules/mainwindow.rst
+   modules/slpNPatternDict.rst
 
 
 Indices and tables
