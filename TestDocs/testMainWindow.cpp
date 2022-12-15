@@ -126,13 +126,13 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent),ui(new Ui::MainWin
     QString common = "";
     gSanskrit = "SLP1 Sanskrit Guide:";
     gSanskrit += "\n";
-    gSanskrit+= "";
+    gSanskrit+= "ऽ - $,, ॐ - %,, ᳲ  - Z,,  ᳳ  - V,, ॠ/ ॄ  - F,, ऌ/ ॢ  - x,, ॡ/ \"ॣ\”  - X,, ,, ,, ";
     gSanskrit += common;
     gSanskrit.replace(",, ", "\n");
 
     gHindi = "SLP1 Hindi Guide:";
     gHindi += "\n";
-    gHindi+= "";
+    gHindi+= "ग़् - $,, ऩ् - %,, ऑ - Z,, ऱ् - V,, ज़ - F,, ड़्/ड़ -x/xa,, ढ़्/ढ़  - X/Xa,, य़्  - &,, क़ - @,, ख़ - #,, फ़् - ^,, ॅ - *,, ,, ,, ";
     gHindi += common;
     gHindi.replace(",, ", "\n");
     QFont font("Chandas");
