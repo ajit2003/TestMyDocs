@@ -3759,7 +3759,7 @@ void MainWindow::on_actionVerifier_Turn_In_triggered()
         messageBox.exec();
 
         /*!
-         * \enum class SubmissionType
+         * \enum SubmissionType
          *
          * This enum describes the type of submission type.
          *

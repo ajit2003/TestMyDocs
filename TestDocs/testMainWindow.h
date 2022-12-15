@@ -290,6 +290,8 @@ private slots:
     QMap<QString,QStringList> getBeforeAndAfterWords(QString fPath,QMap <QString, QString> globalReplacementMap);
 
     void on_actionUpload_triggered();
+    
+    void on_actionJusitfiedAlign_triggered();
 
     void on_justify_triggered();
 
