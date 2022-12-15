@@ -3072,7 +3072,7 @@ void MainWindow::on_actionCentreAlign_triggered()
 }
 
 /*!
- * \fn MainWindow::on_action_JustifiedAlign_triggered
+ * \fn MainWindow::on_actionJusitfiedAlign_triggered
  * \brief Justifies the text.
  *        Here, whenever there is a break in the text, that is being replaced by space
  *        and then text is placed in-between paragraph tags. After that, the following
@@ -3758,15 +3758,6 @@ void MainWindow::on_actionVerifier_Turn_In_triggered()
 
         messageBox.exec();
 
-        /*!
-         * \enum SubmissionType
-         *
-         * This enum describes the type of submission type.
-         *
-         * \value resubmit To turn in without incrementing version.
-         * \value return_set To turn-in and increment the version.
-         * \value finalise To approve the set as the final version.
-        */
         enum class SubmissionType {resubmit, return_set, finalise};
         SubmissionType s ;
 
